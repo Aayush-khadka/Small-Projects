@@ -16,6 +16,7 @@ namespace Fibonacci_Series
             InitializeComponent();   
         }
         int count = 0; 
+        
         private void btn_generate_Click(object sender, EventArgs e)
         {
             if (txt_num.Text != "")
