@@ -5,3 +5,4 @@ C:\Users\Aayush\Desktop\Project\Fibonacci Series\Fibonacci Series\obj\x86\Debug\
 C:\Users\Aayush\Desktop\Project\Fibonacci Series\Fibonacci Series\obj\x86\Debug\Fibonacci Series.csproj.GenerateResource.Cache
 C:\Users\Aayush\Desktop\Project\Fibonacci Series\Fibonacci Series\obj\x86\Debug\Fibonacci Series.exe
 C:\Users\Aayush\Desktop\Project\Fibonacci Series\Fibonacci Series\obj\x86\Debug\Fibonacci Series.pdb
+C:\Users\Aayush\Desktop\Project\Fibonacci Series\Fibonacci Series\obj\x86\Debug\Fibonacci Series.csprojResolveAssemblyReference.cache
