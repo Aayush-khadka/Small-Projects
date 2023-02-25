@@ -13,13 +13,9 @@ namespace Fibonacci_Series
     {
         public form1()
         {
-            InitializeComponent();
-                    
+            InitializeComponent();   
         }
-
-
         int count = 0; 
-
         private void btn_generate_Click(object sender, EventArgs e)
         {
             if (txt_num.Text != "")
@@ -30,7 +26,7 @@ namespace Fibonacci_Series
                 int b = 1;
                 string s_list = "0";
 
-                for (int i = 1; i < num; i++)
+                for (int i = 2; i < num; i++)
                 {
                     int c = a + b;
 
@@ -41,23 +37,23 @@ namespace Fibonacci_Series
                 }
                 try
                 {
-                    arr[0] = 1;
+                    arr[0] = 0;
+                    arr[1] = 1;
                     txt_show.Text = arr[count].ToString();
                     count++;
-
                 }
-
                 catch
                 {
-                    MessageBox.Show("All Numbers Displayed:");
+                    MessageBox.Show("All Numbers Displayed:","Info",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    count = 0;
                     txt_show.Clear();
                 }
             }
-
             else
             {
-                MessageBox.Show("Enter the number of Fibonacci Number");
+                MessageBox.Show("Enter Count","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
+
     }
 }
